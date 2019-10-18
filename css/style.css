@@ -1,0 +1,40 @@
+/* css dasar */
+body{align-content: center; 
+    font-family: arial Black, arial bold,gadget,sans-serif;}
+
+.BGbody{
+    background-image: url('../img/sampul02.jpg'); 
+    background-repeat:repeat-y; position: fixed;
+    width: 100%; height: 100%;
+    background-size: 100%;
+    margin-top: -8px;
+    margin-left: -8px;}
+
+.wrapper{ background-color:transparent;
+    position: relative; width:auto; margin: auto;}
+
+.flex-container{ display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;}
+    .row{}
+
+section{background-color: white; box-sizing: border-box; 
+     border-radius: 10px; align:center;}
+    section h4 { text-align:center;}
+    section p {margin-left:22px;margin-right: 22px;}
+
+#ProfilImg{ width: 130px; height: 130px;border-radius:50%; margin:margin:20px }
+
+/* Class section  */
+.header { padding: 1em; max-width: 850px; margin: auto; }
+    
+.biography{padding: 1em; width: 390px;  border-radius: 10px; margin: 15px;}
+
+.foto{padding: 1em; width: 390px;  border-radius: 10px; margin:15px}
+
+.footer{background-color: black;color:white;  
+    margin: auto; max-width: 850px; padding: 20px; border-radius: 10px;}
+    .footer a{color: #00ff00;}
+    .footer a:hover{color: white;}
+
