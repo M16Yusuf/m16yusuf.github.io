@@ -11,34 +11,33 @@ body{align-content: center;
     margin-left: -8px;}
 
 .wrapper{ background-color:transparent;
-    position: relative; width:auto; margin: auto;}
+    position: relative; width:auto;}
 
 .flex-container{ display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; margin: auto;
     align-content: center;
     justify-content: center;max-width: 850px;}
-    .row{}
-
+    
 section{background-color: white; box-sizing: border-box; 
      border-radius: 10px; align:center;}
-    section h4 { text-align:center;}
-    section p {margin-left:22px;margin-right: 22px;}
+    section h4 {margin:auto;text-align: center;}
+    section p {margin-left:10px;margin-right: 10px;}
 
 a {display: inline-block;position: relative;
     overflow: hidden;transition: all .3s;}
     a:before,a:after {transition: all .3s;}
 
 
-#ProfilImg{ width: 130px; height: 130px;border-radius:50%; margin:margin:20px }
+#ProfilImg{ width: 130px; height: 130px;border-radius:50%; margin:20px }
 
 /* Class section  */
 .header { padding: 1em; max-width: 850px; margin: auto; }
     
-.biography{padding: 1em; width: 390px;  border-radius: 10px; margin: 15px;}
+.biography{padding: 1em; width: 400px;  border-radius: 10px; margin: 10px;}
 
-.foto{padding: 1em; width: 390px;  border-radius: 10px; margin:15px}
+.foto{padding: 1em; width: 400px;  border-radius: 10px; margin:10px}
 
-.contactme{padding: 1em; width: 390px;  border-radius: 10px; margin:15px}
+.contactme{padding: 1em; width: 400px;  border-radius: 10px; margin:10px}
     .fb {background-color: #EAEAEA; width:"50px"; height:"50px"; border-radius: 10px;}
     .fb:hover {background-color: #3b5998;;}
     
