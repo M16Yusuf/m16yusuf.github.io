@@ -3,7 +3,7 @@ body{align-content: center;
     font-family: arial Black, arial bold,gadget,sans-serif;}
 
 .BGbody{
-    background-color: #080808; 
+    background-image:url("../img/sampul02.jpg"); 
     background-repeat:repeat-y; position: fixed;
     width: 100%; height: 100%;
     background-size: 100%;
