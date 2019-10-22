@@ -1,6 +1,6 @@
 /* css dasar */
 body{align-content: center; 
-    font-family: arial Black, arial bold,gadget,sans-serif;}
+    font-family: arial Black, arial bold,gadget,sans-serif; font-size: 12;}
 
 .BGbody{
     background-image:url("../img/sampul02.jpg"); 
@@ -13,10 +13,14 @@ body{align-content: center;
 .wrapper{ background-color:transparent; align-content: center;
     position: relative; max-width: 880px; width: auto; margin: auto;}
 
-.flex-container{ display: flex;
+.flex-container-kepala{ display: flex;
     flex-wrap: wrap; margin: auto;
     align-items: center;
     justify-content: center;max-width: 850px;}
+.flex-container-badan{ display: flex;
+    flex-wrap: wrap; margin: auto;
+    justify-content: center;max-width: 850px;}
+
     
 section{background-color: white; box-sizing: border-box; 
      border-radius: 10px; align:center;}
@@ -33,14 +37,13 @@ a {display: inline-block;position: relative;
 /* Class section  */
 .header { padding: 1em; max-width: 850px; margin: 10px; }
     .pinmaps{ margin: auto;border-radius:10px ;}
-    .pinmaps a{height: 25px; width: 140px; margin:auto; background-color: #1E90FF; color:#EAEAEA; border-radius: 10px;}
-    .pinmaps a:hover{height: 25px; width: 140px; margin: auto; background-color: #EAEAEA; color: #1E90FF;}
+    .pinmaps a{height: 25px; width: 140px; margin:auto; background-color: #6495ED; color:#EAEAEA; border-radius: 10px;}
+    .pinmaps a:hover{height: 25px; width: 140px; margin: auto; background-color: #EAEAEA; color: #6495ED;}
     
-.aboutme{padding: 1em; width: 400px; height: auto;  border-radius: 10px; margin: 10px;}
+.aboutme{padding: 1em; width: 400px; height: auto; border-radius: 10px; margin: 10px;}
 
 .foto{padding: 1em; width: 400px;  border-radius: 10px; margin:10px}
 .carousel-item{max-width: 380px; width: auto; height: auto; align-items: center;}
-    
 
 .contactme{padding: 1em; width: 400px;  border-radius: 10px; margin:10px}
     .fb {background-color: #EAEAEA; width:"50px"; height:"50px"; border-radius: 10px;}
@@ -60,6 +63,15 @@ a {display: inline-block;position: relative;
 
     .steam{background-color: #EAEAEA; width:"50px"; height:"50px";border-radius: 10px;}
     .steam:hover {background-color:#483D8B;}
+
+.sendmemessage{padding: 1em; width: 400px; height: auto;  border-radius: 10px; margin: auto;}
+    .sendmemessage ul { list-style: none; margin: 0; padding: 0;}
+    .sendmemessage input {margin: 2px; background-color: #EAEAEA; border-radius:10px;
+        border: none; width: auto; color: #6495ED;}
+    .sendmemessage input:hover{ background-color: #6495ED;color: #FFF; }
+    .sendmemessage textarea {margin: 2px; background-color: #EAEAEA; border-radius:10px;
+        border: none; width: auto; color: #6495ED;}
+    .sendmemessage textarea:hover{ background-color: #6495ED;color: #FFF; }
 
 
 .footer{background-color: black;color:#EAEAEA;  
