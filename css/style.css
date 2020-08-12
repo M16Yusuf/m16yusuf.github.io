@@ -35,7 +35,7 @@ a {display: inline-block;position: relative;
 #ProfilImg{ width: 130px; height: 130px;border-radius:50%; margin:20px; }
 
 /* Class section  */
-.header { padding: 1em; max-width: 850px; margin: 10px; }
+.header { padding: 1em; max-width: 822px; margin: 10px; }
     .pinmaps{ margin: auto;border-radius:10px ;}
     .pinmaps a{height: 25px; width: 140px; margin:auto; background-color: #6495ED; color:#EAEAEA; border-radius: 10px;}
     .pinmaps a:hover{height: 25px; width: 140px; margin: auto; background-color: #EAEAEA; color: #6495ED;}
@@ -78,6 +78,6 @@ a {display: inline-block;position: relative;
 
 
 .footer{background-color: black;color:#EAEAEA;  
-    margin: 10px; max-width: 850px; padding: 20px; border-radius: 10px;}
+    margin: 10px; max-width: 822px; padding: 20px; border-radius: 10px;}
     
 
